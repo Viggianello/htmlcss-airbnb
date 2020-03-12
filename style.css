@@ -4,26 +4,31 @@
     box-sizing: border-box;
 }
 .primo{
-    width: 300px;
-    height: 300px;
-    position: relative;
+    width: 800px;
+    height: 500px;
     background: url(img/paradiso.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
+    opacity: 0.4;
+    background-size:cover;
+    position: relative;
 }
 .secondo{
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 500px;
+    background: url(img/inferno_2.jpg);
+    background-size:cover;
     position: relative;
-    background: url(img/inferno.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
 }
 .terzo{
-    width: 300px;
-    height: 300px;
-    position: relative;
+    width: 800px;
+    height: 500px;
     background: url(img/terra.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
+    position: relative;
+}
+.testo{
+    color:yellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

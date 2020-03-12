@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background: url(img/paradiso.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.secondo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background: url(img/inferno.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+.terzo{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background: url(img/terra.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
